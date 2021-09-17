@@ -13,13 +13,11 @@ option = int(input('What you want to calculate,'
 unit = (input("Which unit you want to use in this calculation? "))
 
 def cal_vol_cube(a):
-  v = a**3
-  return v
+  return a**3
 
 
 def cal_vol_tetrahedron(a):
-  v = (a ** 3 / (6 * math.sqrt(2)))
-  return round(v, 2)
+  return round((a ** 3 / (6 * math.sqrt(2))), 2)
 
 def vol_cal_optins(option):
   if option == 1:
