@@ -22,7 +22,7 @@ def cal_vol_tetrahedron(a):
 def vol_cal_optins(option):
   if option == 1:
     a = int(input("Enter the side length of Cube: "))
-    print(f"Volume of the Cube is {cal_vol_cube(a)}{unit}")
+    print(f"Volume of Cube is {cal_vol_cube(a)}{unit}")
   else:
     a = int(input("What is the side length of the regular tetrahedron: "))  
     print(f"Volume of Tetrahedron is {cal_vol_tetrahedron(a)}{unit}") 
