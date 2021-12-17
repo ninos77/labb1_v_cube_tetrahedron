@@ -5,7 +5,7 @@ print("*---*Calculator Volume of an equilateral Cube & Tetrahedron*---*")
 print("               ++-------------------++")
 print("              ++-----------------------++\n")
 
-#Ask user what he wants to calculate
+#Ask user what he wants to calculate.
 option = int(input('What you want to calculate,'
                         'please choose an option below.\n1.Volume of an equilateral Cube\n2'
                         '.Volume of an equilateral Tetrahedron\n:'))
